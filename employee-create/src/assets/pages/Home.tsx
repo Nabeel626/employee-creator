@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../styling/home.scss";
+import EmployeeCard from "./components/EmployeeCard";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
             <a>Add employee</a>
           </Link>
         </div>
+        <EmployeeCard />
       </div>
     </>
   );

@@ -1,0 +1,23 @@
+.employeeCard__container {
+  border: 2px solid black;
+  padding: 20px;
+
+  .employeeCard__splitter {
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .employeeCard__grid {
+    display: grid;
+
+    .employeeCard__name {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    p {
+      margin: 7px;
+    }
+  }
+}
